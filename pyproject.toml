@@ -1,0 +1,13 @@
+[project]
+name = "datapy"
+version = "0.1.0"
+description = "Data analysis project with UV"
+readme = "README.md"
+requires-python = ">=3.11"
+
+# --- 依存関係 ---
+dependencies = ["polars>=1.35.2", "ruff>=0.14.6", "seaborn>=0.13.2"]
+
+# --- 開発用依存 (optional) ---
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
